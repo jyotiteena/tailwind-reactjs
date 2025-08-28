@@ -1,1 +1,4 @@
 @import "tailwindcss";
+.textcolor {
+    color :blue;
+}

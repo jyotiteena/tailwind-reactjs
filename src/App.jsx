@@ -3,14 +3,18 @@ import './App.css'
 import About from "./pages/About"
 import CounterCls from "./layout/CounterCls"
 import CounterFn from "./layout/CounterFn"
+import UseEffectHook from "./pages/UseEffectHook"
+import Form from "./pages/Form"
 const App = () => {
   return (
     <>
-    {/* <Home/>
+      {/* <Home/>
     <About/> */}
-    <CounterCls/>
-      <CounterFn/>
-    {/* hook is a function to use for state updation and side effect (DOM manipulation and api working) */}
+      {/* <CounterCls /> */}
+      {/* <CounterFn />s */}
+      {/* hook is a function to use for state updation and side effect (DOM manipulation and api working) */}
+      {/* <UseEffectHook/> */}
+      <Form/>
     </>
   )
 }
