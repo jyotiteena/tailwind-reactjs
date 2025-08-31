@@ -5,6 +5,7 @@ import CounterCls from "./layout/CounterCls"
 import CounterFn from "./layout/CounterFn"
 import UseEffectHook from "./pages/UseEffectHook"
 import Form from "./pages/Form"
+import HookForm from "./pages/HookForm"
 const App = () => {
   return (
     <>
@@ -14,7 +15,8 @@ const App = () => {
       {/* <CounterFn />s */}
       {/* hook is a function to use for state updation and side effect (DOM manipulation and api working) */}
       {/* <UseEffectHook/> */}
-      <Form/>
+      {/* <Form/> */}
+      <HookForm/>
     </>
   )
 }
